@@ -16143,6 +16143,66 @@
 		)
 	)
 	(symbol
+		(lib_id "SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue")
+		(at 55.88 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f61bdc7c-9424-469d-b70a-cacdecfebb5b")
+		(property "Reference" "TH9"
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "HOLE"
+			(at 55.88 193.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SofleChoc:HOLE_M2_TH"
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "TH9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
 		(at 267.97 107.95 90)
 		(unit 1)
