@@ -16,7 +16,9 @@ TODO
 
 
 ## Images
-
+![Nomad Keyboard Left Half](Images/Nomad_Keyboard_Full.jpg)
+![Nomad Keyboard Left Half](Images/Nomad_Keyboard_Left.jpg)
+![Nomad Keyboard Profile](Images/Nomad_Keyboard_Profile.jpg)
 ![Nomad Keyboard PCB with Switches](Images/Nomad_Front_Left_Switches.jpg)
 ![Nomad Keyboard PCB 3D View](Images/Nomad_PCB_3D.png)
 ![Nomad Keyboard PCB Front](Images/Nomad_PCB_Front_Left.jpg)

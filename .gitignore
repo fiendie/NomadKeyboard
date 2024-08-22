@@ -15,5 +15,6 @@ PCB/sym*
 PCB/*.lck
 PCB/*backups
 PCB/_autosave-*
+PCB/#auto_saved*
 
 
