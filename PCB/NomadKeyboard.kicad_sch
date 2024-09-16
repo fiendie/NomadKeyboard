@@ -15077,7 +15077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
 			(at 38.1 179.07 0)
 			(effects
 				(font
@@ -15137,7 +15137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
 			(at 29.21 179.07 0)
 			(effects
 				(font
@@ -15667,7 +15667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
 			(at 46.99 179.07 0)
 			(effects
 				(font
@@ -16107,7 +16107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
 			(at 20.32 179.07 0)
 			(effects
 				(font
