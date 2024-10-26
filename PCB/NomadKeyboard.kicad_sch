@@ -5,6 +5,203 @@
 	(uuid "eaee3b4b-85c3-461f-869e-93e0a5fc0df7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.651 1.4992)
+					(end -3.048 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 1.016)
+					(mid 1.651 1.4992)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue"
 			(pin_numbers hide)
 			(pin_names
@@ -385,257 +582,6 @@
 				)
 			)
 		)
-		(symbol "SofleKeyboard-rescue:Jumper-Device"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper-Device"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper-Device_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5146 1.27)
-					(mid 0.0078 2.5097)
-					(end -2.4892 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 4.191)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 4.191)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SofleKeyboard-rescue:Jumper_NO_Small-Device"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_NO_Small-Device"
-				(at 0.254 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_NO_Small-Device_0_1"
-				(circle
-					(center -1.016 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SofleKeyboard-rescue:MJ-4PP-9-Lily58-cache-Lily58_Pro-rescue"
 			(pin_names
 				(offset 1.016)
@@ -851,194 +797,6 @@
 					(at 11.43 3.81 180)
 					(length 3.81)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SofleKeyboard-rescue:OLED-Lily58-cache-Lily58_Pro-rescue"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "OLED-Lily58-cache-Lily58_Pro-rescue"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin_Header_Straight_1X04 Pin_Header_Angled_1X04 Socket_Strip_Straight_1X04 Socket_Strip_Angled_1X04"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OLED-Lily58-cache-Lily58_Pro-rescue_0_1"
-				(rectangle
-					(start -1.27 -3.683)
-					(end 0.254 -3.937)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -1.143)
-					(end 0.254 -1.397)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.397)
-					(end 0.254 1.143)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.937)
-					(end 0.254 3.683)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.08)
-					(end 1.27 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "OLED-Lily58-cache-Lily58_Pro-rescue_1_1"
-				(pin passive line
-					(at -5.08 3.81 0)
-					(length 3.81)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 3.81)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 3.81)
-					(name "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -3.81 0)
-					(length 3.81)
-					(name "P4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1640,231 +1398,6 @@
 				)
 			)
 		)
-		(symbol "SofleKeyboard-rescue:R-Lily58-cache-Lily58_Pro-rescue"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R-Lily58-cache-Lily58_Pro-rescue"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R-Lily58-cache-Lily58_Pro-rescue_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R-Lily58-cache-Lily58_Pro-rescue_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SofleKeyboard-rescue:SW_RST-Lily58-cache-Lily58_Pro-rescue"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RSW"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "SW_RST-Lily58-cache-Lily58_Pro-rescue"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_RST-Lily58-cache-Lily58_Pro-rescue_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue"
 			(power)
 			(pin_names
@@ -2058,107 +1591,6 @@
 					(at 0 0 90)
 					(length 0) hide
 					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "i2c_pin-Lily58-cache-Lily58_Pro-rescue"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "i2c_pin-Lily58-cache-Lily58_Pro-rescue_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2398,6 +1830,12 @@
 		(uuid "00e0037b-57a6-4b26-9c04-db6ad24de4e2")
 	)
 	(junction
+		(at 90.17 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "037302eb-7978-4d96-9353-3dd6cb53428f")
+	)
+	(junction
 		(at 212.09 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2414,12 +1852,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fc0e693-fde0-481c-972b-b6a34a1c782e")
-	)
-	(junction
-		(at 39.37 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12415121-9edf-4d42-b3a4-73f947f11370")
 	)
 	(junction
 		(at 186.69 95.25)
@@ -2444,12 +1876,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "160fe258-4ec3-447d-92ca-26161722f1a8")
-	)
-	(junction
-		(at 27.94 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2071f344-3fb5-4245-b79e-a9360d75aa5f")
 	)
 	(junction
 		(at 252.73 87.63)
@@ -2506,16 +1932,10 @@
 		(uuid "47ba016d-4b39-4d03-ab23-25b99472f702")
 	)
 	(junction
-		(at 40.64 128.27)
+		(at 110.49 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47cce1ee-21ef-4da0-aecf-6fe71d72f30b")
-	)
-	(junction
-		(at 41.91 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a411f24-8ad7-4260-abe7-60e8a1cfd8b6")
+		(uuid "4a78f21c-2285-4679-b84d-4c5a6aadd260")
 	)
 	(junction
 		(at 207.01 128.27)
@@ -2540,6 +1960,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58b4e22c-f8bf-4906-91d6-57ba961c56b0")
+	)
+	(junction
+		(at 110.49 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5be3ba7f-6fbe-40dc-af2a-ed39a151dae4")
 	)
 	(junction
 		(at 171.45 104.14)
@@ -2572,22 +1998,34 @@
 		(uuid "6cc2b923-d66b-42d6-a86d-cfce4b85ace1")
 	)
 	(junction
+		(at 105.41 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76fd329a-448f-47a8-ab3f-6f21e119eb16")
+	)
+	(junction
 		(at 191.77 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "774166d7-939d-4dc7-9305-0c712894de1b")
 	)
 	(junction
+		(at 125.73 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78fd6510-34d2-4e37-ad29-883d81c7cc86")
+	)
+	(junction
+		(at 105.41 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83627591-9cbc-43dd-bba8-ad4a16e9b073")
+	)
+	(junction
 		(at 130.81 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89f7379a-ffb5-421f-8d83-a37f01d4fc7f")
-	)
-	(junction
-		(at 54.61 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "908d3402-2121-447a-bf97-a18411e8a2e9")
 	)
 	(junction
 		(at 232.41 137.16)
@@ -2600,6 +2038,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99c46eb7-06f1-430a-96ae-3a84877a2a8b")
+	)
+	(junction
+		(at 125.73 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a8e6aaa-a2a8-45e2-bafc-953082032c37")
 	)
 	(junction
 		(at 227.33 128.27)
@@ -2660,6 +2104,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd456d66-1e88-4cfe-ae38-46cb50da6365")
+	)
+	(junction
+		(at 125.73 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c32c7feb-105a-4075-8f75-9011e6898604")
+	)
+	(junction
+		(at 125.73 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3639080-6173-493a-b477-fc9312cf2a41")
 	)
 	(junction
 		(at 151.13 87.63)
@@ -2728,6 +2184,18 @@
 		(uuid "da6e5222-7ffc-408f-9e95-91eb530c1cc1")
 	)
 	(junction
+		(at 105.41 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd8ec1c1-ea6c-444c-b036-ec1bdebc0edf")
+	)
+	(junction
+		(at 90.17 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5213d2d-2450-402f-ac91-b3cca6f7292d")
+	)
+	(junction
 		(at 166.37 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2758,26 +2226,34 @@
 		(uuid "f230e277-5ad2-417c-80bb-a0c8b5ff0bf8")
 	)
 	(junction
-		(at 43.18 123.19)
+		(at 110.49 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4b5635f-82e1-4371-94b9-4b8d6438c612")
+		(uuid "fb3fa30c-2d94-448a-a864-580b03e54d51")
 	)
 	(no_connect
-		(at 60.96 21.59)
-		(uuid "24e6a417-ecf6-45b2-b89d-fb4d9e56f1bf")
-	)
-	(no_connect
-		(at 60.96 31.75)
-		(uuid "357ac5b8-2719-4d8d-aae2-b4aaf8ed46ff")
-	)
-	(no_connect
-		(at 27.94 36.83)
-		(uuid "8aa6beaf-c4c3-411c-ad3b-acd272a8b83b")
+		(at 60.96 46.99)
+		(uuid "0b131460-03f1-4525-86ee-c9ff038a0332")
 	)
 	(no_connect
 		(at 243.84 71.12)
-		(uuid "9bc7c9b2-1722-41bf-9b81-c07c44dccd12")
+		(uuid "448a157f-76dd-44f4-aaa6-9f5ca930289b")
+	)
+	(no_connect
+		(at 60.96 41.91)
+		(uuid "56497a92-06ea-4451-a5e1-04d8dbbfd4ed")
+	)
+	(no_connect
+		(at 60.96 49.53)
+		(uuid "5df2c11d-a1a1-44c6-94ff-f28dc2721068")
+	)
+	(no_connect
+		(at 60.96 21.59)
+		(uuid "ac4b7d48-3296-4df5-92b2-45b92e0ff781")
+	)
+	(no_connect
+		(at 60.96 44.45)
+		(uuid "d197dd88-67a6-46c9-be9a-d0195139423d")
 	)
 	(wire
 		(pts
@@ -2801,23 +2277,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 50.8) (xy 167.64 50.8)
+			(xy 110.49 87.63) (xy 110.49 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "008322a2-82a3-41e9-b250-593cc7fe1677")
-	)
-	(wire
-		(pts
-			(xy 162.56 55.88) (xy 162.56 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00aabd03-94c4-4289-8938-57257e4cda3f")
+		(uuid "01286564-696a-404e-b000-bbee1fee58bd")
 	)
 	(wire
 		(pts
@@ -2831,13 +2297,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 105.41) (xy 57.15 105.41)
+			(xy 151.13 63.5) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01e0acd0-efe3-4dbf-9832-13725162be10")
+		(uuid "020aa341-dec7-4b2f-aec5-081e69f2d9a6")
 	)
 	(wire
 		(pts
@@ -2861,16 +2327,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 44.45 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069127bf-2e00-474c-b1d0-91d08694d644")
-	)
-	(wire
-		(pts
 			(xy 182.88 27.94) (xy 193.04 27.94)
 		)
 		(stroke
@@ -2881,23 +2337,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 39.37) (xy 177.8 39.37)
+			(xy 162.56 39.37) (xy 151.13 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "081bbc68-10db-4aa8-9f26-a3ac82dc3e06")
+		(uuid "0a44079a-e4bd-4578-9c63-51003d0fdb4d")
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 41.91 125.73)
+			(xy 110.49 104.14) (xy 110.49 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0964cbda-06b0-4475-9572-fcc88b432f9d")
+		(uuid "0bd3aaff-b215-4008-aaef-a8a976d2e51e")
 	)
 	(wire
 		(pts
@@ -2941,23 +2397,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 128.27) (xy 44.45 128.27)
+			(xy 80.01 144.78) (xy 125.73 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fe5a970-5dc3-4ad2-9982-df621f604bc7")
-	)
-	(wire
-		(pts
-			(xy 66.04 100.33) (xy 64.77 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104e14f3-17d9-4699-b69c-5892b6a3a267")
+		(uuid "1071af87-f6b9-40a0-a37f-a30eb7060035")
 	)
 	(wire
 		(pts
@@ -3031,13 +2477,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 124.46 111.76)
+			(xy 146.05 111.76) (xy 125.73 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b09f7df-0d2b-4637-8345-fb63c8e9d0b9")
+	)
+	(wire
+		(pts
+			(xy 82.55 52.07) (xy 92.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b44aaa5-fd7e-4b57-a89f-14bbadd68fa7")
 	)
 	(wire
 		(pts
@@ -3048,6 +2504,16 @@
 			(type default)
 		)
 		(uuid "1b53f585-c3b5-4ecb-be33-d5d4ba136c3d")
+	)
+	(wire
+		(pts
+			(xy 90.17 87.63) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df1452f-057e-4820-8209-8b9c51d42c82")
 	)
 	(wire
 		(pts
@@ -3078,16 +2544,6 @@
 			(type default)
 		)
 		(uuid "1f21adb2-4532-48d5-9d91-21d6c5dfab63")
-	)
-	(wire
-		(pts
-			(xy 43.18 134.62) (xy 44.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fbcb27f-e684-4511-9d57-5580933dfe9f")
 	)
 	(wire
 		(pts
@@ -3151,27 +2607,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 29.21) (xy 21.59 29.21)
+			(xy 149.86 43.18) (xy 152.4 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24c5944e-9886-47c0-991d-9f8de9efc96c")
+		(uuid "2685080e-c8d9-45d9-92ec-e5cf10a220e0")
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 41.91 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25924436-66e7-4866-a790-9652df16fc8c")
-	)
-	(wire
-		(pts
-			(xy 146.05 95.25) (xy 124.46 95.25)
+			(xy 146.05 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3261,37 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 26.67) (xy 27.94 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3474ea39-54e1-4b1d-be46-5b4a8ad89015")
-	)
-	(wire
-		(pts
-			(xy 24.13 104.14) (xy 24.13 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "364fa847-b06e-4936-876b-996d7ae8962a")
-	)
-	(wire
-		(pts
-			(xy 137.16 66.04) (xy 137.16 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ad7277-fe20-47d6-8896-935f8e313de2")
-	)
-	(wire
-		(pts
-			(xy 146.05 144.78) (xy 124.46 144.78)
+			(xy 146.05 144.78) (xy 125.73 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3308,6 +2724,26 @@
 			(type default)
 		)
 		(uuid "3a7fe295-47b7-4e39-832a-c59d1e003562")
+	)
+	(wire
+		(pts
+			(xy 134.62 29.21) (xy 121.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7521e3-7e90-47b1-ad26-a7a03fc00039")
+	)
+	(wire
+		(pts
+			(xy 139.7 26.67) (xy 151.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf035c0-988c-4f19-8bdb-399a692e5451")
 	)
 	(wire
 		(pts
@@ -3351,16 +2787,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 40.64 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7b9c4a-2613-4a62-bf43-ef6e0b3b6c8d")
-	)
-	(wire
-		(pts
 			(xy 213.36 51.435) (xy 213.36 48.26)
 		)
 		(stroke
@@ -3368,6 +2794,16 @@
 			(type default)
 		)
 		(uuid "3fe29d86-6066-45d8-bc90-1164b2cc9770")
+	)
+	(wire
+		(pts
+			(xy 151.13 39.37) (xy 151.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3feaa524-cbeb-4803-8de2-fcf26a779bac")
 	)
 	(wire
 		(pts
@@ -3401,6 +2837,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 20.32) (xy 147.32 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b2b709-fe58-49e9-a65f-7fb2906722c1")
+	)
+	(wire
+		(pts
+			(xy 139.7 26.67) (xy 139.7 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431b704f-3c48-4d6f-ad67-46dd33073f85")
+	)
+	(wire
+		(pts
 			(xy 186.69 161.29) (xy 207.01 161.29)
 		)
 		(stroke
@@ -3408,6 +2864,16 @@
 			(type default)
 		)
 		(uuid "4346bae7-ab7a-418f-98e3-1a6bf3ab5b54")
+	)
+	(wire
+		(pts
+			(xy 121.92 48.26) (xy 124.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a4a777-ba0d-4eaa-83ab-054e02ba470f")
 	)
 	(wire
 		(pts
@@ -3421,16 +2887,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 142.24) (xy 44.45 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45360529-7661-42b1-ad3c-f1d9d17bd5ac")
-	)
-	(wire
-		(pts
 			(xy 238.76 48.26) (xy 238.76 51.435)
 		)
 		(stroke
@@ -3438,6 +2894,26 @@
 			(type default)
 		)
 		(uuid "45721f3a-3864-46a7-94c1-cae226b8b35f")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ea5aa7-7ff0-4c2b-b044-1a09f85d4164")
+	)
+	(wire
+		(pts
+			(xy 134.62 31.75) (xy 134.62 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cb3e78-6378-4235-b56c-c249585df909")
 	)
 	(wire
 		(pts
@@ -3468,6 +2944,16 @@
 			(type default)
 		)
 		(uuid "4a26b3f8-463a-4574-a7e8-ad1008fbbd59")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac768f3-87cd-4dff-a470-eda1848ee3d2")
 	)
 	(wire
 		(pts
@@ -3521,13 +3007,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 139.7) (xy 44.45 139.7)
+			(xy 137.16 63.5) (xy 137.16 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fe7ca2a-678b-4fd6-9109-ebd41132b3e6")
+		(uuid "503c0dfa-4b70-4eeb-a262-b8cedd85ebe5")
 	)
 	(wire
 		(pts
@@ -3571,6 +3057,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 39.37) (xy 177.8 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5489db5a-316f-4a73-8c6f-d5c638cd0ea3")
+	)
+	(wire
+		(pts
 			(xy 171.45 137.16) (xy 171.45 153.67)
 		)
 		(stroke
@@ -3611,6 +3107,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 95.25) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58360a64-62f5-4924-9d2e-64bfa9fcde52")
+	)
+	(wire
+		(pts
 			(xy 238.76 28.575) (xy 228.6 28.575)
 		)
 		(stroke
@@ -3641,13 +3147,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 128.27) (xy 40.64 139.7)
+			(xy 148.59 54.61) (xy 151.13 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c32c133-b40b-4eb7-b4a2-88bee44cd91f")
+		(uuid "5cb7caa4-f3d2-48c6-bd9a-17e5fbc6be90")
 	)
 	(wire
 		(pts
@@ -3751,13 +3257,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 128.27) (xy 124.46 128.27)
+			(xy 146.05 128.27) (xy 125.73 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a0237bd-c2fe-4a8e-b94f-ae77e81094ce")
+	)
+	(wire
+		(pts
+			(xy 167.64 52.07) (xy 177.8 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bce6f29-bba9-40ff-8e2d-5e16449dbac1")
 	)
 	(wire
 		(pts
@@ -3768,6 +3284,36 @@
 			(type default)
 		)
 		(uuid "6d560245-9f5d-4886-92ff-8f030901da9a")
+	)
+	(wire
+		(pts
+			(xy 135.89 59.69) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e78ad1d-2774-4bbd-aaef-893d888ace65")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 105.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f387870-d27f-4eff-9ca5-a9ae6da11110")
+	)
+	(wire
+		(pts
+			(xy 80.01 161.29) (xy 146.05 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9ae1ef-490a-4291-9ad3-d46d031c6cb0")
 	)
 	(wire
 		(pts
@@ -3801,16 +3347,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 29.21) (xy 68.58 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73fcfcc9-cfb9-4122-957d-66e9e8a5120c")
-	)
-	(wire
-		(pts
 			(xy 247.65 111.76) (xy 267.97 111.76)
 		)
 		(stroke
@@ -3818,6 +3354,16 @@
 			(type default)
 		)
 		(uuid "75e6cc27-a912-43e8-93f2-a527a0e292df")
+	)
+	(wire
+		(pts
+			(xy 54.61 63.5) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762361f9-bb38-430b-a3e4-9af4a96b4a9f")
 	)
 	(wire
 		(pts
@@ -3891,23 +3437,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 102.87) (xy 26.67 102.87)
+			(xy 121.92 29.21) (xy 121.92 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bc03556-0075-4eea-9374-89ace14e82f7")
-	)
-	(wire
-		(pts
-			(xy 55.88 100.33) (xy 57.15 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e18705d-76c2-4210-aad7-f4cddffa1128")
+		(uuid "7c54e026-e226-4475-b8ec-8b561c06ed3e")
 	)
 	(wire
 		(pts
@@ -3918,6 +3454,26 @@
 			(type default)
 		)
 		(uuid "806bb2ae-bc5b-420d-8b7a-feb0428dcf45")
+	)
+	(wire
+		(pts
+			(xy 162.56 48.26) (xy 162.56 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c8fa89-5013-43dc-b486-91a3b423f6ef")
+	)
+	(wire
+		(pts
+			(xy 125.73 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81674281-0aad-4502-821a-e52de43be62e")
 	)
 	(wire
 		(pts
@@ -3941,6 +3497,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 48.26) (xy 149.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f2c583-bc8a-4bc7-b906-42f616faf175")
+	)
+	(wire
+		(pts
+			(xy 147.32 20.32) (xy 152.4 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848d88c9-33b1-4048-b2c9-f0a2328605c7")
+	)
+	(wire
+		(pts
 			(xy 198.12 27.94) (xy 208.28 27.94)
 		)
 		(stroke
@@ -3948,6 +3524,16 @@
 			(type default)
 		)
 		(uuid "859ad2a9-e9e0-4cc2-b041-856f906761ad")
+	)
+	(wire
+		(pts
+			(xy 134.62 43.18) (xy 138.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a6408e-e44a-4094-a858-69ba200b0eac")
 	)
 	(wire
 		(pts
@@ -3961,16 +3547,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 105.41) (xy 64.77 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88f9ef8f-0746-46df-8c3d-c34fbccf145d")
-	)
-	(wire
-		(pts
 			(xy 198.12 20.32) (xy 198.12 17.78)
 		)
 		(stroke
@@ -3981,16 +3557,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 123.19) (xy 43.18 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c60cc31-d177-4f8c-a51e-95afb7c287d1")
-	)
-	(wire
-		(pts
 			(xy 223.52 54.61) (xy 223.52 51.435)
 		)
 		(stroke
@@ -3998,6 +3564,16 @@
 			(type default)
 		)
 		(uuid "8e930c0b-63df-4b64-b522-91a5d23a1c7e")
+	)
+	(wire
+		(pts
+			(xy 124.46 39.37) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd3736c-0fcf-4b7b-8b6b-eb18a939a1fd")
 	)
 	(wire
 		(pts
@@ -4031,16 +3607,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 50.8) (xy 167.64 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954201e7-bd51-402a-a7df-9cda3f8c4f52")
-	)
-	(wire
-		(pts
 			(xy 177.8 27.94) (xy 167.64 27.94)
 		)
 		(stroke
@@ -4051,6 +3617,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 22.86) (xy 121.92 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ff2692-3899-47a3-9ffe-190fdd377f2a")
+	)
+	(wire
+		(pts
 			(xy 198.12 50.8) (xy 208.28 50.8)
 		)
 		(stroke
@@ -4058,26 +3634,6 @@
 			(type default)
 		)
 		(uuid "975ebb88-38ee-4b25-bfb9-55551455a94d")
-	)
-	(wire
-		(pts
-			(xy 43.18 123.19) (xy 44.45 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b7b4ad-f316-4380-8923-d56c14eb6e0a")
-	)
-	(wire
-		(pts
-			(xy 146.685 20.32) (xy 152.4 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a4a337f-f781-4a09-b488-cd6bd62b90d0")
 	)
 	(wire
 		(pts
@@ -4181,6 +3737,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 52.07) (xy 177.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a680174e-bfaa-485c-b276-5187d97b03e6")
+	)
+	(wire
+		(pts
 			(xy 208.28 50.8) (xy 208.28 48.26)
 		)
 		(stroke
@@ -4188,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "a6c28257-8e69-4fa4-92bb-289692eae758")
+	)
+	(wire
+		(pts
+			(xy 21.59 26.67) (xy 27.94 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7af9ce5-70e2-450c-b632-3734d7eb7b71")
 	)
 	(wire
 		(pts
@@ -4221,16 +3797,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 40.005) (xy 152.4 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab275322-5f2c-4ed3-a50c-12c6d0fd3a05")
-	)
-	(wire
-		(pts
 			(xy 182.88 73.66) (xy 208.28 73.66)
 		)
 		(stroke
@@ -4241,13 +3807,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 130.81) (xy 39.37 130.81)
+			(xy 110.49 120.65) (xy 110.49 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aee1f962-c049-4d7b-8b2d-39995dc78f0e")
+		(uuid "adb8f138-f08a-44ad-bbd8-fc09624242c1")
 	)
 	(wire
 		(pts
@@ -4271,6 +3837,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 17.78) (xy 137.16 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af33ba99-fff5-41a5-92e0-ae3648aacaf5")
+	)
+	(wire
+		(pts
 			(xy 198.12 66.04) (xy 198.12 62.23)
 		)
 		(stroke
@@ -4281,13 +3857,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 123.19) (xy 43.18 123.19)
+			(xy 105.41 128.27) (xy 80.01 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5687117-94c5-4db3-bd73-8701183e61a7")
+		(uuid "b59842b5-22fd-469d-a45b-a442e7bf6482")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0e2665-7e29-4a69-b53f-2f7ca9706360")
 	)
 	(wire
 		(pts
@@ -4321,6 +3907,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 128.27) (xy 105.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd870dce-8d4e-4de6-b8da-535c812aff12")
+	)
+	(wire
+		(pts
 			(xy 223.52 28.575) (xy 213.36 28.575)
 		)
 		(stroke
@@ -4328,6 +3924,16 @@
 			(type default)
 		)
 		(uuid "bdb6950a-4715-49de-aa40-da7744001f93")
+	)
+	(wire
+		(pts
+			(xy 149.86 36.83) (xy 149.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf964fbd-c3c2-4448-a4a3-d1a67a26bdc4")
 	)
 	(wire
 		(pts
@@ -4351,6 +3957,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 104.14) (xy 90.17 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c299cc14-73bc-420c-bb56-93e778f9c706")
+	)
+	(wire
+		(pts
 			(xy 232.41 120.65) (xy 232.41 104.14)
 		)
 		(stroke
@@ -4371,13 +3987,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 55.88) (xy 162.56 55.88)
+			(xy 162.56 52.07) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4c333c6-302f-4a04-8884-0854cc4f3317")
+		(uuid "c4ed398d-cb1c-4da5-aceb-91bb781272ae")
 	)
 	(wire
 		(pts
@@ -4388,6 +4004,16 @@
 			(type default)
 		)
 		(uuid "c72be16b-51a1-433f-ba1a-fba46dcb148d")
+	)
+	(wire
+		(pts
+			(xy 135.89 52.07) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8851182-158f-4b3d-93a2-8627c9244a24")
 	)
 	(wire
 		(pts
@@ -4411,16 +4037,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 102.87) (xy 34.29 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d192b4-8296-4f64-847b-eb2beaae49bd")
-	)
-	(wire
-		(pts
 			(xy 130.81 137.16) (xy 130.81 153.67)
 		)
 		(stroke
@@ -4428,6 +4044,16 @@
 			(type default)
 		)
 		(uuid "cb76c8d4-3a52-4d2c-9208-57922cd3d70c")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd33d7be-149b-4c46-9900-2b20fff91117")
 	)
 	(wire
 		(pts
@@ -4461,26 +4087,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 54.61) (xy 177.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f461df-f280-4697-bd51-f0a908da67c0")
-	)
-	(wire
-		(pts
-			(xy 60.96 24.13) (xy 68.58 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2bdfc9d-5867-4a90-abc7-95941dce8043")
-	)
-	(wire
-		(pts
 			(xy 213.36 59.69) (xy 213.36 62.23)
 		)
 		(stroke
@@ -4498,16 +4104,6 @@
 			(type default)
 		)
 		(uuid "d4f5905d-d3de-4ad3-af16-3094e9da4a03")
-	)
-	(wire
-		(pts
-			(xy 124.46 161.29) (xy 146.05 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6014b38-1a1c-44f3-a667-7d127b8fe8b8")
 	)
 	(wire
 		(pts
@@ -4571,6 +4167,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 36.83) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7104c7b-0dea-4752-885c-9d9ba3ba10d4")
+	)
+	(wire
+		(pts
 			(xy 198.12 54.61) (xy 198.12 50.8)
 		)
 		(stroke
@@ -4598,6 +4204,16 @@
 			(type default)
 		)
 		(uuid "e90f25bd-d5dc-4bb8-8943-349a31e4dafb")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaef5445-5e0b-41ea-8218-10311c77bfc6")
 	)
 	(wire
 		(pts
@@ -4631,16 +4247,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 40.005) (xy 152.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7239fc-9172-4591-b78e-4d96b4f1a30e")
-	)
-	(wire
-		(pts
 			(xy 171.45 85.09) (xy 171.45 87.63)
 		)
 		(stroke
@@ -4648,16 +4254,6 @@
 			(type default)
 		)
 		(uuid "edf2ae1d-7737-4bfb-b1ec-8f741155cd07")
-	)
-	(wire
-		(pts
-			(xy 165.1 59.69) (xy 167.64 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee1f9d86-3886-4456-adfd-fb823f6aa725")
 	)
 	(wire
 		(pts
@@ -4681,16 +4277,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 36.83) (xy 162.56 40.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f182fb41-a478-47fb-ac7e-4402d6465efb")
-	)
-	(wire
-		(pts
 			(xy 191.77 85.09) (xy 191.77 87.63)
 		)
 		(stroke
@@ -4701,13 +4287,23 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 39.37 142.24)
+			(xy 149.86 39.37) (xy 124.46 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f67e9b94-ddc1-421b-ad4b-abf5b78775b6")
+		(uuid "f4fb2cea-7728-4f1f-a075-76f47eb74cd8")
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 90.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f84cfd-2471-4607-aa84-525e389cdeb8")
 	)
 	(wire
 		(pts
@@ -4751,6 +4347,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 48.26) (xy 149.86 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faaeaf24-78af-4727-ab44-57271bd938c0")
+	)
+	(wire
+		(pts
 			(xy 182.88 48.26) (xy 182.88 50.8)
 		)
 		(stroke
@@ -4771,17 +4377,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 137.16) (xy 44.45 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff210e14-e079-4981-b4d6-7039d0058b41")
-	)
-	(wire
-		(pts
-			(xy 44.45 78.74) (xy 54.61 78.74)
+			(xy 44.45 78.74) (xy 69.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4789,31 +4385,9 @@
 		)
 		(uuid "ffeced7a-cd92-4a2b-aaa1-6ccf1c1457bd")
 	)
-	(label "i2c_d"
-		(at 49.53 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42809322-be7b-43c0-a3d1-dc9093cf2c5e")
-	)
-	(label "i2c_c"
-		(at 48.26 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6452190-0870-405a-a781-0dd4d79faf8f")
-	)
 	(global_label "ROW0"
 		(shape input)
-		(at 124.46 95.25 180)
+		(at 80.01 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4822,27 +4396,7 @@
 		)
 		(uuid "09262a68-d5d1-446c-8fd0-8fcf694a1d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 49.53 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0cf9324b-2104-4513-8e2c-0807ba3ef9a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 130.81 0)
+			(at 80.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,16 +4427,16 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 60.96 34.29 0)
+		(at 27.94 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "13da8105-ec3d-4565-b3ae-e10b9544a537")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 34.29 0)
+			(at 27.94 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,18 +4445,18 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "COL7"
 		(shape input)
-		(at 49.53 137.16 0)
+		(at 27.94 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "1a89fa03-6dd8-46d7-944d-6611329013aa")
+		(uuid "15d19431-e223-4a42-a66b-2f3b43fd4aae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 137.16 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,16 +4467,16 @@
 	)
 	(global_label "DATA"
 		(shape input)
-		(at 27.94 24.13 180)
+		(at 60.96 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1c800259-8212-4e56-9877-8e36ba19ed09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 24.13 0)
+			(at 60.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,16 +4487,16 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 27.94 21.59 180)
+		(at 60.96 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "24068395-8c2c-464c-bef4-c95d47154e81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 21.59 0)
+			(at 60.96 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,58 +4525,40 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "VCC"
 		(shape input)
-		(at 27.94 34.29 180)
+		(at 92.71 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2677c226-d836-4cf2-8a53-4fdb04ec264d")
+		(uuid "2973e75f-bd20-4fea-87b0-9b01e026e8d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 34.29 0)
+			(at 98.6696 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 60.96 41.91 0)
+		(at 27.94 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2c9fd5bd-3bd3-411e-b4c2-3da3d6043021")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 49.53 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ce66b5d-a69a-4ed4-a0df-a6e35b1019ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 128.27 0)
+			(at 27.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +4569,7 @@
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 124.46 111.76 180)
+		(at 80.01 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5042,7 +4578,7 @@
 		)
 		(uuid "2ce90e06-2de5-4c1b-a22b-2168c8ab07d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 111.76 0)
+			(at 80.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,16 +4589,36 @@
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 27.94 41.91 180)
+		(at 60.96 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3011eb81-46ac-4075-918f-57d133979510")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 27.94 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3011eb81-46ac-4075-918f-57d133979510")
+		(uuid "311bdb92-8c62-414c-bb33-1db5a3567d70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 41.91 0)
+			(at 27.94 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +4649,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 124.46 144.78 180)
+		(at 80.01 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5102,27 +4658,7 @@
 		)
 		(uuid "35d5bf17-39c0-464d-bc48-2f0c17e86685")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 49.53 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "372fb17c-374f-40f5-bbba-7f273e8d172b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 134.62 0)
+			(at 80.01 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,16 +4669,16 @@
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 60.96 46.99 0)
+		(at 27.94 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "425ea6c9-97af-46c7-adf1-2379de777948")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 46.99 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,36 +4689,16 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 60.96 44.45 0)
+		(at 27.94 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "51ee958f-e191-4e51-abb0-c8e933cf9554")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 66.04 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54d25b8c-9508-4ba3-84c0-c33c81791782")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 100.33 0)
+			(at 27.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,6 +4719,48 @@
 		(uuid "5d2753c0-7905-411d-ba49-95357d9a877a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_bridge"
+		(shape input)
+		(at 54.61 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6487f9fd-b297-4552-8767-9d92d562abc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.738 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 110.49 85.09 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6721ef87-db5f-475c-9b9d-efa50b59c0ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,16 +4791,16 @@
 	)
 	(global_label "COL6"
 		(shape input)
-		(at 60.96 49.53 0)
+		(at 27.94 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "73e19acc-7e96-4f1a-b557-583b6b4b95b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 49.53 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,38 +4829,18 @@
 			)
 		)
 	)
-	(global_label "RESET"
+	(global_label "COL8"
 		(shape input)
-		(at 35.56 102.87 0)
+		(at 90.17 85.09 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7dc0f68f-974e-4fb4-9264-4e3754d1cdfe")
+		(uuid "80a795ff-1a1e-4a7b-9318-d8012f19e9b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 66.04 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e8717ce-537e-42fc-aec5-52703813f9cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.04 105.41 0)
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,16 +4871,16 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 27.94 44.45 180)
+		(at 60.96 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "981965eb-9e3f-4505-84bf-2f8b4204451a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 44.45 0)
+			(at 60.96 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,18 +4889,60 @@
 			)
 		)
 	)
-	(global_label "ROW4"
+	(global_label "VDD"
 		(shape input)
-		(at 27.94 49.53 180)
+		(at 82.55 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
+		(uuid "99b8710e-5ae9-4dbd-9cd1-0599d491e80a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.5904 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW4"
+		(shape input)
+		(at 60.96 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
 		(uuid "a0b85293-08c8-4244-bd7a-a32b3bc13fe5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 49.53 0)
+			(at 60.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_start"
+		(shape input)
+		(at 115.57 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a47f2d3a-eed9-43e2-9a45-5d1428b243c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,85 +4953,27 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 146.685 20.32 180)
+		(at 33.02 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a47f2d3a-eed9-43e2-9a45-5d1428b243c7")
+		(uuid "adf51647-21b3-471a-b590-a5116784dd8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.685 20.32 0)
+			(at 27.2419 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "ROW3"
-		(shape input)
-		(at 27.94 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b16892c2-910a-4a19-8ecd-fbe5759fc22e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW0"
-		(shape input)
-		(at 27.94 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc37bd5d-005f-43e0-a949-61f261db40a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW2"
-		(shape input)
-		(at 124.46 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c87314dd-0013-4161-820f-6b8f4a64e561")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL1"
 		(shape input)
 		(at 60.96 36.83 0)
 		(effects
@@ -5460,7 +4982,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ca7f0da0-3dc0-4302-82b4-293f8cc5046c")
+		(uuid "b16892c2-910a-4a19-8ecd-fbe5759fc22e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.96 36.83 0)
 			(effects
@@ -5471,38 +4993,18 @@
 			)
 		)
 	)
-	(global_label "ROW4"
+	(global_label "ROW0"
 		(shape input)
-		(at 124.46 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1a7af86-40c8-4c96-b550-4ce4c280831e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape input)
-		(at 60.96 26.67 0)
+		(at 60.96 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d3686d36-be7e-46f2-a7a1-2840497b7130")
+		(uuid "bc37bd5d-005f-43e0-a949-61f261db40a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 26.67 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5013,49 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "LED"
+		(shape input)
+		(at 45.72 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8040825-ad98-42cb-ad07-01ac2dddec3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.4981 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 80.01 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c87314dd-0013-4161-820f-6b8f4a64e561")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
 		(shape input)
 		(at 27.94 31.75 180)
 		(effects
@@ -5520,7 +5064,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ecf35925-5774-4f19-8640-a6fdfa6a6fb8")
+		(uuid "ca7f0da0-3dc0-4302-82b4-293f8cc5046c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 27.94 31.75 0)
 			(effects
@@ -5531,18 +5075,60 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "ROW4"
 		(shape input)
-		(at 60.96 39.37 0)
+		(at 80.01 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
+		)
+		(uuid "d1a7af86-40c8-4c96-b550-4ce4c280831e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_start"
+		(shape input)
+		(at 39.37 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbe0bfb1-8f9c-44f8-a117-bd868faf82bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 120.3804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 27.94 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "f2348f7c-6829-47ff-bd05-febc84c0fec4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 39.37 0)
+			(at 27.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5174,7 @@
 				)
 			)
 		)
-		(property "Value" "ProMicro"
+		(property "Value" "RP2040"
 			(at 44.45 53.34 0)
 			(effects
 				(font
@@ -5596,7 +5182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SofleChoc:ProMicro"
+		(property "Footprint" "RP2040:RP2040-mini"
 			(at 46.99 62.23 0)
 			(effects
 				(font
@@ -9975,7 +9561,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue")
-		(at 68.58 29.21 270)
+		(at 21.59 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9983,7 +9569,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b736b57")
 		(property "Reference" "#PWR04"
-			(at 64.77 29.21 0)
+			(at 25.4 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +9578,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 72.39 29.21 0)
+			(at 17.78 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +9586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 29.21 0)
+			(at 21.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +9595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 29.21 0)
+			(at 21.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +9604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 29.21 0)
+			(at 21.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,272 +9619,6 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue")
-		(at 55.88 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b739b47")
-		(property "Reference" "#PWR05"
-			(at 59.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 52.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f967fbe3-844b-405d-9426-9303206705dc")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue")
-		(at 55.88 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b739cdc")
-		(property "Reference" "#PWR06"
-			(at 59.69 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39782782-caf7-4b3d-afe6-31a281e46166")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:R-Lily58-cache-Lily58_Pro-rescue")
-		(at 60.96 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b739f4a")
-		(property "Reference" "R1"
-			(at 60.96 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "R"
-			(at 60.96 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:RESISTOR_mini"
-			(at 60.96 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4ae9995-c671-4d02-b414-dfe43bf4e940")
-		)
-		(pin "1"
-			(uuid "a9ae0dd7-e94c-4f10-9f23-37c2884edefe")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:R-Lily58-cache-Lily58_Pro-rescue")
-		(at 60.96 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b73a034")
-		(property "Reference" "R2"
-			(at 60.96 97.536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "R"
-			(at 60.96 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:RESISTOR_mini"
-			(at 60.96 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d4294c0a-a6e2-4f0d-9e26-0201f2e73b14")
-		)
-		(pin "1"
-			(uuid "4d9da289-ea67-4cd8-bf11-ce0acb46a343")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10371,71 +9691,6 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue")
-		(at 24.13 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b74c10f")
-		(property "Reference" "#PWR010"
-			(at 24.13 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.257 108.5342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67483b5a-6809-40af-b1f4-71d5bf681c78")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10943,72 +10198,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue")
-		(at 68.58 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8cd05e")
-		(property "Reference" "#PWR0101"
-			(at 74.93 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69ea3e03-40a1-4241-8796-d48a4b2da27e")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue")
-		(at 21.59 29.21 270)
+		(at 27.94 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11016,7 +10206,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8cd27f")
 		(property "Reference" "#PWR0102"
-			(at 15.24 29.21 0)
+			(at 21.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +10215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 17.78 29.21 0)
+			(at 24.13 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,7 +10223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 29.21 0)
+			(at 27.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,7 +10232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 29.21 0)
+			(at 27.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,7 +10241,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 29.21 0)
+			(at 27.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11066,73 +10256,6 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:SW_RST-Lily58-cache-Lily58_Pro-rescue")
-		(at 30.48 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8ce7e7")
-		(property "Reference" "RSW1"
-			(at 30.48 96.3676 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "SW_RST"
-			(at 30.48 98.4758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:TACT_SWITCH_TVBP06"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d91d6f44-ac30-4712-a8de-6c65ee759572")
-		)
-		(pin "2"
-			(uuid "ff5c6457-a1c2-4344-b0c3-03f7d22f0817")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "RSW1")
 					(unit 1)
 				)
 			)
@@ -11263,1080 +10386,6 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue")
-		(at 54.61 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8f6780")
-		(property "Reference" "P1"
-			(at 52.07 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "i2c_pin"
-			(at 54.61 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:1pin_conn"
-			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee021e05-1aa1-4b56-ab1b-bb3e8f1ee90d")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue")
-		(at 54.61 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8f6980")
-		(property "Reference" "P2"
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "i2c_pin"
-			(at 54.61 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:1pin_conn"
-			(at 54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f27d387-7107-48f0-8eb9-fcf32ff346dd")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "P2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper-Device")
-		(at 62.23 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b900157")
-		(property "Reference" "W1"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "jumper"
-			(at 62.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa7bd38d-4681-4d78-8e8f-1337c1dbcba7")
-		)
-		(pin "2"
-			(uuid "cca53da9-4211-4904-a211-420a843f918e")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "W1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:OLED-Lily58-cache-Lily58_Pro-rescue")
-		(at 34.29 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b91007b")
-		(property "Reference" "J2"
-			(at 34.29 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OLED"
-			(at 34.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:OLED_4Pin"
-			(at 34.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c5e43b95-39c7-4aad-8a9b-b76d8488f2e5")
-		)
-		(pin "1"
-			(uuid "8f478cae-d84f-4c7b-a17e-d52326131b3d")
-		)
-		(pin "2"
-			(uuid "5b2c8078-eb0e-4a8c-8efe-6bf4a71bcdd4")
-		)
-		(pin "4"
-			(uuid "95717529-6a66-4b0d-86aa-030269796081")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b911e74")
-		(property "Reference" "JP1"
-			(at 46.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 120.8024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e292170-d62b-4901-b3ea-87da0c4b09cf")
-		)
-		(pin "2"
-			(uuid "e8e6cf8f-6d2d-48ef-933e-180bd6d0df88")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b9120ce")
-		(property "Reference" "JP2"
-			(at 46.99 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 123.3424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b19b61d4-eb17-41be-9faf-12ed35b76f6b")
-		)
-		(pin "2"
-			(uuid "32a9c298-a570-436e-9b30-75674c2d624a")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b913646")
-		(property "Reference" "JP3"
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 125.8824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "089455e1-2800-4321-9fcd-254d4dd2e56f")
-		)
-		(pin "1"
-			(uuid "93f0012e-b706-4fc3-85ed-67ee3ee403a3")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b913c11")
-		(property "Reference" "JP4"
-			(at 46.99 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 128.4224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b49f90c-b180-4226-a355-933655d1c10d")
-		)
-		(pin "2"
-			(uuid "22e3da78-0aad-47cd-a0cc-c655a1d16e34")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b9141f4")
-		(property "Reference" "JP5"
-			(at 46.99 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 132.2324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d883d71d-0e86-43d5-98d6-465ddc76cd6c")
-		)
-		(pin "2"
-			(uuid "6835b514-c40e-4261-912b-3c454127b422")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b9141fa")
-		(property "Reference" "JP6"
-			(at 46.99 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 134.7724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e7bca71f-ecce-4649-a63f-eb51f079e31a")
-		)
-		(pin "1"
-			(uuid "b43234a7-9f55-4318-b67e-bc0794a62e89")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b914200")
-		(property "Reference" "JP7"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 137.3124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7e98777-b345-4332-b3c3-2777a5940762")
-		)
-		(pin "2"
-			(uuid "68a776a8-d9cb-40e7-b17d-dda6502efecb")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper_NO_Small-Device")
-		(at 46.99 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b914206")
-		(property "Reference" "JP8"
-			(at 46.99 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_NO_Small"
-			(at 46.99 139.8524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Jumper"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f5bd6db-0dd4-4db3-8518-89608011b28e")
-		)
-		(pin "2"
-			(uuid "105dbb8e-3614-40f3-a034-ce6ff297d8f4")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:GND-power")
-		(at 49.53 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b9205b8")
-		(property "Reference" "#PWR03"
-			(at 55.88 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.7812 123.063 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c7916e3-e67e-4c45-9202-3a7ec1327204")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:VCC-power")
-		(at 49.53 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b9207da")
-		(property "Reference" "#PWR09"
-			(at 45.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 52.7812 126.1618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1b582d2-5098-4baf-8d3f-f6b89b02d0e4")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:GND-power")
-		(at 49.53 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b920a11")
-		(property "Reference" "#PWR014"
-			(at 55.88 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.7812 142.113 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2308d46e-20a9-4494-ae08-919d9957af8b")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:VCC-power")
-		(at 49.53 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b920c33")
-		(property "Reference" "#PWR011"
-			(at 45.72 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 52.7812 140.1318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d09d307-5bd5-4c70-8642-5ec6a3d221b7")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14894,6 +12943,166 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 129.54 45.72 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "123785e5-6759-443a-9509-81a3087e9275")
+		(property "Reference" "SW39"
+			(at 129.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 129.54 52.6796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0c5f000-7574-4bd6-b5a9-060d1c3494e9")
+		)
+		(pin "2"
+			(uuid "9955c9d8-6a6b-4304-ab84-52d34c74f474")
+		)
+		(pin "3"
+			(uuid "bce9e4c6-103d-41aa-ac49-434d7ca503c7")
+		)
+		(pin "4"
+			(uuid "9c97679e-6ed2-4c4d-9d94-2c179c371ef6")
+		)
+		(pin "5"
+			(uuid "77e4dde5-17d3-4d13-91ea-52912413f6aa")
+		)
+		(pin "6"
+			(uuid "14f7dd90-cb7d-410d-bfb5-63514155f792")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW39")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 118.11 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13822b84-40e0-4f36-b8ad-0af8471ecd0e")
+		(property "Reference" "SW35"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da6c8936-1365-46c6-af25-42d32d382afc")
+		)
+		(pin "3"
+			(uuid "4555b9b8-229b-432c-a99c-894c0430fb9f")
+		)
+		(pin "4"
+			(uuid "8c3d3f17-ef95-4e7b-978e-f8742edc8bc0")
+		)
+		(pin "6"
+			(uuid "6b0058e5-8070-4b9a-9b74-1116808dd34f")
+		)
+		(pin "1"
+			(uuid "cae50f55-7f66-4b76-ab5e-720a6fadb999")
+		)
+		(pin "5"
+			(uuid "881091c3-1444-4d51-af11-c76d76c6a109")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
 		(at 260.35 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14968,6 +13177,317 @@
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "SW28")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 118.11 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17e3a6bd-05e5-4435-a99a-8abe6bbd05c4")
+		(property "Reference" "SW38"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "cc001da8-070f-4a37-8ca3-c15c58a1258c")
+		)
+		(pin "1"
+			(uuid "6bc3642b-391d-499b-920b-a227cc061eb2")
+		)
+		(pin "2"
+			(uuid "239581d9-23e8-4064-861e-4092efb5a1cf")
+		)
+		(pin "3"
+			(uuid "e8ba9479-fdb6-4729-b925-5fe96820034e")
+		)
+		(pin "4"
+			(uuid "a984d4ea-d39a-401b-b28e-a1daca25cc44")
+		)
+		(pin "5"
+			(uuid "3c60ceba-21af-41c2-b688-22ab2228b937")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
+		(at 125.73 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18123113-c9fd-41cd-9832-8f1e8c1cf932")
+		(property "Reference" "D41"
+			(at 121.158 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 127.7366 109.093 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:crkbd-diode"
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "487f1271-7d8c-48ee-9d40-7bc8e4ab966e")
+		)
+		(pin "2"
+			(uuid "b37ca1af-89d7-4355-b68c-bb2ac8e38bbf")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 129.54 34.29 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49a170c3-7095-4274-9dbd-f33ee9482501")
+		(property "Reference" "SW40"
+			(at 129.54 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 129.54 41.2496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0bf24792-1dab-47a1-9b75-5871862cf833")
+		)
+		(pin "4"
+			(uuid "b285e6bd-3175-40e0-bd8f-cba508abc751")
+		)
+		(pin "5"
+			(uuid "31952433-9a9a-454f-b498-e9dc122f0973")
+		)
+		(pin "6"
+			(uuid "bcae1602-093b-48c1-9db7-5cb30a523e78")
+		)
+		(pin "1"
+			(uuid "dc5e3311-71bb-41ef-a693-550e21eac68c")
+		)
+		(pin "2"
+			(uuid "dcf98e48-e6da-444b-b599-50c354cf89e3")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW40")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 143.51 45.72 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "556c996f-4f50-42ab-b518-e46346592218")
+		(property "Reference" "SW37"
+			(at 143.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 143.51 38.7604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dc7d0ac4-7be6-493e-9cdc-e2c79a6700df")
+		)
+		(pin "4"
+			(uuid "48377d9d-519c-4d49-81d2-c6ae20cd8814")
+		)
+		(pin "5"
+			(uuid "b50b1756-c9fd-44f3-a757-81a96c6057ee")
+		)
+		(pin "6"
+			(uuid "bb759698-5184-4ee7-8325-3aabedd15972")
+		)
+		(pin "1"
+			(uuid "9f49a4f2-4215-483b-9153-21e7738d59b3")
+		)
+		(pin "2"
+			(uuid "4264bb44-3585-4621-af76-99babd9305a8")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW37")
+					(unit 2)
 				)
 			)
 		)
@@ -15053,49 +13573,24 @@
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue")
-		(at 38.1 179.07 0)
-		(unit 1)
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 143.51 57.15 180)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6ccfa993-2a0d-46c9-9694-48bee4f44bc0")
-		(property "Reference" "TH7"
-			(at 38.1 179.07 0)
+		(uuid "611801fa-95b6-45c4-8073-96525ba88f4d")
+		(property "Reference" "SW38"
+			(at 143.51 57.15 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "HOLE"
-			(at 38.1 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
-			(at 38.1 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 179.07 0)
+		(property "Value" "SW_PUSH_LED"
+			(at 143.51 64.1096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15103,59 +13598,160 @@
 				(hide yes)
 			)
 		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 143.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a8d1b340-3f96-4b6f-874d-ce3e339e6513")
+		)
+		(pin "6"
+			(uuid "514502c4-f5f6-451e-9324-4b776114112e")
+		)
+		(pin "1"
+			(uuid "0654a205-4c57-4545-b4c4-c6ed35e40fce")
+		)
+		(pin "2"
+			(uuid "6d01d4c4-267d-407d-b4fa-30ecc03d0eb5")
+		)
+		(pin "3"
+			(uuid "18bf70cb-1587-4d87-a6fb-c7a60124459e")
+		)
+		(pin "4"
+			(uuid "885215ba-dbd4-42f9-b52a-6c1597c3ccfa")
+		)
 		(instances
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "TH7")
+					(reference "SW38")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 118.11 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "646c1c83-cf1d-48a9-8f45-b31e3882f86e")
+		(property "Reference" "SW36"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "31d261bb-485b-44b4-8817-230f23008b7e")
+		)
+		(pin "6"
+			(uuid "93ecd068-3950-453b-85ef-c1b8847a65d1")
+		)
+		(pin "1"
+			(uuid "b9afd8d8-9188-4217-b4ff-4e08ba8310e1")
+		)
+		(pin "2"
+			(uuid "50fbd982-4065-4a8d-98c4-17640a9b6c63")
+		)
+		(pin "3"
+			(uuid "0502154c-242e-4f14-b854-b52cf63df5bd")
+		)
+		(pin "4"
+			(uuid "19ad649e-0e5a-4233-ada8-4b064b966b53")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW36")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue")
-		(at 29.21 179.07 0)
-		(unit 1)
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 144.78 34.29 0)
+		(mirror y)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7cf3307c-3ad0-4c38-9b43-91d0413283e5")
-		(property "Reference" "TH6"
-			(at 29.21 179.07 0)
+		(uuid "73f89aa8-c4e2-42c7-9ad5-eb18327c0956")
+		(property "Reference" "SW36"
+			(at 144.78 33.655 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "HOLE"
-			(at 29.21 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 179.07 0)
+		(property "Value" "SW_PUSH_LED"
+			(at 144.78 27.3304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15163,10 +13759,275 @@
 				(hide yes)
 			)
 		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "2d115479-84da-44c8-8add-8853a89ee937")
+		)
+		(pin "6"
+			(uuid "9fb3d9cd-d198-4008-91f9-1b5f01c8cb3f")
+		)
+		(pin "1"
+			(uuid "016b777d-7bd1-4c29-b7f7-343f790d3274")
+		)
+		(pin "2"
+			(uuid "c2108ab3-03d9-4987-92a9-1afb4ce98145")
+		)
+		(pin "3"
+			(uuid "2ec54bbd-d55d-4b5c-880d-4a516fbece39")
+		)
+		(pin "4"
+			(uuid "cc3a3b0a-5af2-421a-9209-f60f0b62e8a2")
+		)
 		(instances
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "TH6")
+					(reference "SW36")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 97.79 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76468d75-55f7-4902-afdb-221f96170d6d")
+		(property "Reference" "SW39"
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a69e59fa-9b97-47c2-961b-b8abc987124e")
+		)
+		(pin "6"
+			(uuid "2cda6e8b-c8c1-4fbd-8446-23493f698919")
+		)
+		(pin "1"
+			(uuid "7ceb2005-8385-484f-86ee-b55bac0ac1c2")
+		)
+		(pin "2"
+			(uuid "5360e6b8-f70c-43c6-9b98-c013378154af")
+		)
+		(pin "3"
+			(uuid "21c66d77-f965-470f-aa27-8d6f62ee6c75")
+		)
+		(pin "4"
+			(uuid "21ad032c-8101-44a9-88bf-d933a768a956")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
+		(at 105.41 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c9a9338-6926-49f3-a37d-739ef831d594")
+		(property "Reference" "D35"
+			(at 101.092 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 107.4166 92.583 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:crkbd-diode"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa7b46e4-afe0-44ff-be1a-f88b1746aa3d")
+		)
+		(pin "2"
+			(uuid "87e9ab13-bf4e-436b-97d1-9ae79fc53b71")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
+		(at 125.73 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "812d7343-fa47-4e36-a36a-58bfb8cef0db")
+		(property "Reference" "D43"
+			(at 119.888 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 127.7366 142.113 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:crkbd-diode"
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd32bae4-a71c-451b-a60e-c6d0bfb739c5")
+		)
+		(pin "1"
+			(uuid "0689a20b-6ddf-4842-836d-d3b01ddaf474")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -15317,6 +14178,227 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 142.24 20.32 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93956fc4-6e89-41c4-beff-30d5252ac93f")
+		(property "Reference" "SW35"
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 142.24 13.3604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 142.24 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0bb5141e-13ec-4cc2-bb54-fd32466da8bd")
+		)
+		(pin "4"
+			(uuid "dd27b34d-89e8-4790-94e8-33b2fe6a492b")
+		)
+		(pin "5"
+			(uuid "d12c35f5-d562-4db7-9aab-41be3d7df053")
+		)
+		(pin "6"
+			(uuid "fc5552e7-67a7-4747-922e-6dd6150bf564")
+		)
+		(pin "1"
+			(uuid "6e949504-d1bc-4b98-9830-a7471c284300")
+		)
+		(pin "2"
+			(uuid "2e260b5f-a0e3-41a0-9ae6-d158ec2751fd")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW35")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
+		(at 105.41 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96c5f078-5ba9-4a0f-af7b-2343fd268801")
+		(property "Reference" "D37"
+			(at 99.568 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 107.4166 125.603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:crkbd-diode"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3450affb-fe9a-45d8-9503-e9fe304086e6")
+		)
+		(pin "2"
+			(uuid "a9a46cad-254b-430e-b338-29562651459b")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
+		(at 105.41 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98fdee6c-46bc-4df2-b336-71d050890e6a")
+		(property "Reference" "D36"
+			(at 100.838 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 107.4166 109.093 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:crkbd-diode"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0acd4a2-b7d0-4b14-9acc-c3a256cdced7")
+		)
+		(pin "2"
+			(uuid "388ba287-0e17-4cf7-b056-675590902d6a")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -15643,66 +14725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue")
-		(at 46.99 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba2b7f2c-5138-41b4-8f7f-70063f170a6c")
-		(property "Reference" "TH8"
-			(at 46.99 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "HOLE"
-			(at 46.99 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
-			(at 46.99 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "TH8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH_LED")
 		(at 260.35 87.63 0)
 		(unit 1)
@@ -15777,6 +14799,237 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 118.11 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1338b6b-7d58-48fd-b730-70b5e2d81a82")
+		(property "Reference" "SW37"
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ac597964-ea2a-4236-b760-540bd20ddbe2")
+		)
+		(pin "6"
+			(uuid "db9fb691-b012-4c06-9a12-59bcaf776389")
+		)
+		(pin "1"
+			(uuid "18d9e444-8948-4473-aca5-021cabe9e50a")
+		)
+		(pin "2"
+			(uuid "815f68e2-e135-493f-af06-851dd102850b")
+		)
+		(pin "3"
+			(uuid "b3b0e2b0-7e62-4e12-ab26-159d4bd0b406")
+		)
+		(pin "4"
+			(uuid "d98b30ea-b66f-4869-ba30-d274134e280c")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 39.37 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3c9131f-24d1-4172-8177-75f573ff5064")
+		(property "Reference" "J_RGB1"
+			(at 39.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RGB jumper"
+			(at 39.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36c00de6-35ed-42ce-a1c4-3db36a22817f")
+		)
+		(pin "1"
+			(uuid "f95bbfd4-3ea1-4dcd-bf93-518b2d6fc237")
+		)
+		(pin "3"
+			(uuid "189f09e7-df70-415a-b998-75188a905869")
+		)
+		(instances
+			(project ""
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "J_RGB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 97.79 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c986a8da-07f1-4753-8950-ac15e1c7bf97")
+		(property "Reference" "SW40"
+			(at 97.79 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 97.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "44af1b36-4edb-49fb-8d42-81c0ae08b86b")
+		)
+		(pin "6"
+			(uuid "d2a91c95-446c-4d4d-b844-0ce69a597191")
+		)
+		(pin "1"
+			(uuid "d9e19290-51c6-4397-9d60-a22a2cd5ac31")
+		)
+		(pin "2"
+			(uuid "ffca5ef1-57cd-4fdb-a4d8-f5ed4e60d38e")
+		)
+		(pin "3"
+			(uuid "20890136-6835-4838-9714-d28143e61ead")
+		)
+		(pin "4"
+			(uuid "199e8db6-efa7-442f-b87d-592477195bf8")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -16083,49 +15336,35 @@
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue")
-		(at 20.32 179.07 0)
+		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
+		(at 125.73 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d3e31f05-acd8-44a2-ae79-26a58fa27765")
-		(property "Reference" "TH5"
-			(at 20.32 179.07 0)
+		(uuid "d71f171b-035e-4052-9c4e-2438778aba47")
+		(property "Reference" "D40"
+			(at 121.412 89.916 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "HOLE"
-			(at 20.32 181.61 0)
+		(property "Value" "D"
+			(at 127.7366 92.583 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "SofleChoc:M2_HOLE_PCB"
-			(at 20.32 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 20.32 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 179.07 0)
+		(property "Footprint" "SofleChoc:crkbd-diode"
+			(at 125.73 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16133,59 +15372,58 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet" ""
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "475a801e-6946-4799-8d61-7b5d5985d87c")
+		)
+		(pin "2"
+			(uuid "16c27e76-2972-4e74-ad66-664407dc895f")
+		)
 		(instances
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "TH5")
+					(reference "D40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard-rescue:HOLE-Lily58-cache-Lily58_Pro-rescue")
-		(at 55.88 190.5 0)
-		(unit 1)
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 127 20.32 180)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f61bdc7c-9424-469d-b70a-cacdecfebb5b")
-		(property "Reference" "TH9"
-			(at 55.88 190.5 0)
+		(uuid "f3298f8a-a4fe-4865-b81b-d9341a7e2931")
+		(property "Reference" "SW41"
+			(at 127 20.32 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "HOLE"
-			(at 55.88 193.04 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:HOLE_M2_TH"
-			(at 55.88 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 190.5 0)
+		(property "Value" "SW_PUSH_LED"
+			(at 127 27.2796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16193,10 +15431,125 @@
 				(hide yes)
 			)
 		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "99441e2c-c0f6-46ed-8369-9dddcdfb0ba5")
+		)
+		(pin "6"
+			(uuid "5dd5921f-9173-408f-98c4-56513daf7446")
+		)
+		(pin "1"
+			(uuid "891e71f2-df59-4cf7-a2b2-8c4b814562c3")
+		)
+		(pin "2"
+			(uuid "45d6239f-f09a-49e5-86bd-70f925b6b510")
+		)
+		(pin "3"
+			(uuid "2b6624ae-e11a-4bda-8a54-cb365781672c")
+		)
+		(pin "4"
+			(uuid "0d9fa90c-7a01-4712-8057-872eebe67996")
+		)
 		(instances
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "TH9")
+					(reference "SW41")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
+		(at 125.73 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f584d5fa-8e6b-469f-8b17-8d15d74e667f")
+		(property "Reference" "D42"
+			(at 119.888 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 127.7366 125.603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:crkbd-diode"
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71333127-ff7b-44c0-898f-4962692aec24")
+		)
+		(pin "2"
+			(uuid "a26003bf-da9b-459a-914a-614bbd768d78")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -16267,6 +15620,86 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH_LED")
+		(at 97.79 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffd56841-4c93-41c6-b5e4-de61cb09557b")
+		(property "Reference" "SW41"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH_LED"
+			(at 97.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb5ba4c5-207e-4b57-a73c-fb1fc2f15f0e")
+		)
+		(pin "2"
+			(uuid "060120b7-d2f3-44f9-a6c9-7917aa0a8180")
+		)
+		(pin "3"
+			(uuid "7ffc3ffe-ad8f-4660-8737-c2c332fcb494")
+		)
+		(pin "4"
+			(uuid "bfdc614e-ab0f-4534-acbd-0e7d7807a1f5")
+		)
+		(pin "5"
+			(uuid "d6daf910-ec56-4586-9cf0-9b82eb27a353")
+		)
+		(pin "6"
+			(uuid "1cd41d29-36fe-4bde-aed9-358ef669b523")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "SW41")
 					(unit 1)
 				)
 			)
