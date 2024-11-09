@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "eaee3b4b-85c3-461f-869e-93e0a5fc0df7")
 	(paper "A4")
+	(title_block
+		(title "Nomad Keyboard")
+		(date "2024-11-08")
+		(rev "1.1")
+	)
 	(lib_symbols
 		(symbol "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue"
 			(pin_numbers hide)
@@ -381,137 +386,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-		)
-		(symbol "SofleKeyboard-rescue:Jumper-Device"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper-Device"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper-Device_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5146 1.27)
-					(mid 0.0078 2.5097)
-					(end -2.4892 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 4.191)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 4.191)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2074,107 +1948,6 @@
 				)
 			)
 		)
-		(symbol "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "i2c_pin-Lily58-cache-Lily58_Pro-rescue"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "i2c_pin-Lily58-cache-Lily58_Pro-rescue_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SofleKeyboard:SW_PUSH_LED"
 			(pin_names
 				(offset 1.016)
@@ -2584,12 +2357,6 @@
 		(uuid "89f7379a-ffb5-421f-8d83-a37f01d4fc7f")
 	)
 	(junction
-		(at 54.61 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "908d3402-2121-447a-bf97-a18411e8a2e9")
-	)
-	(junction
 		(at 232.41 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2766,6 +2533,10 @@
 	(no_connect
 		(at 60.96 21.59)
 		(uuid "24e6a417-ecf6-45b2-b89d-fb4d9e56f1bf")
+	)
+	(no_connect
+		(at 54.61 69.85)
+		(uuid "293ccb1e-0230-4dc7-a869-884ab866a03a")
 	)
 	(no_connect
 		(at 60.96 31.75)
@@ -4781,35 +4552,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.74) (xy 54.61 78.74)
+			(xy 44.45 78.74) (xy 69.85 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ffeced7a-cd92-4a2b-aaa1-6ccf1c1457bd")
-	)
-	(label "i2c_d"
-		(at 49.53 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42809322-be7b-43c0-a3d1-dc9093cf2c5e")
-	)
-	(label "i2c_c"
-		(at 48.26 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6452190-0870-405a-a781-0dd4d79faf8f")
 	)
 	(global_label "ROW0"
 		(shape input)
@@ -11263,200 +11012,6 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue")
-		(at 54.61 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8f6780")
-		(property "Reference" "P1"
-			(at 52.07 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "i2c_pin"
-			(at 54.61 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:1pin_conn"
-			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee021e05-1aa1-4b56-ab1b-bb3e8f1ee90d")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue")
-		(at 54.61 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8f6980")
-		(property "Reference" "P2"
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "i2c_pin"
-			(at 54.61 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleChoc:1pin_conn"
-			(at 54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f27d387-7107-48f0-8eb9-fcf32ff346dd")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "P2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:Jumper-Device")
-		(at 62.23 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b900157")
-		(property "Reference" "W1"
-			(at 62.23 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "jumper"
-			(at 62.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa7bd38d-4681-4d78-8e8f-1337c1dbcba7")
-		)
-		(pin "2"
-			(uuid "cca53da9-4211-4904-a211-420a843f918e")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "W1")
 					(unit 1)
 				)
 			)

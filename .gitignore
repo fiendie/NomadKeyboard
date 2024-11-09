@@ -17,4 +17,12 @@ PCB/*backups
 PCB/_autosave-*
 PCB/#auto_saved*
 
+PCB_MX/pcbway_production
+PCB_MX/fp*
+PCB_MX/sym*
+PCB_MX/*backups
+PCB_MX/_autosave-*
+PCB_MX/*.lck
+PCB_MX/#auto_saved*
+
 

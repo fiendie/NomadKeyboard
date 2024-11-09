@@ -7,7 +7,7 @@ To make the keyboard more compact, there also (currently) is no option for a rot
 
 ## Firmware 
 
-Nomad uses [QMK firmware](https://qmk.fm/)
+Nomad uses [QMK firmware](https://github.com/fiendie/qmk_firmware/tree/nomad)
 
 
 ## Default layout 
