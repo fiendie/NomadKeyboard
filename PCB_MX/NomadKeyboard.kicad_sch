@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Nomad Keyboard MX")
-		(date "2024-11-08")
-		(rev "1.0")
+		(date "2025-04-20")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Device:RotaryEncoder"
