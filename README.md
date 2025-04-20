@@ -1,16 +1,26 @@
 # Nomad Keyboard
 
-The Nomad is a 7×5 keys, column-staggered split keyboard based largely on the [Sofle Choc by Brian Low](https://github.com/brianlow/SofleKeyboard).
+The Nomad is a 7×5 keys, column-staggered split keyboard based in part on the [Sofle Choc by Brian Low](https://github.com/brianlow/SofleKeyboard).
 It uses low profile Kailh Choc v1 switches with hotswap sockets and features per-key RGB lighting via SK6812 Mini-E LEDs.
 Compared to the Sofle Choc the nomad offers an additional thumb cluster key, an additional modifier key in the 5th row and a 7th inner column with 3 keys each.
-To make the keyboard more compact, there also (currently) is no option for a rotary encoder.
+An MX version is also available.
+
+
+## Table of Contents
+
+- [Firmware](#firmware)
+- [Bill of Materials](#bill-of-materials)
+- [Default Layout](#default-layout)
+- [Build Instructions](#build-instructions)
+- [Images](#images)
+
 
 ## Firmware 
 
 Nomad uses [QMK firmware](https://github.com/fiendie/qmk_firmware/tree/nomad)
 
-## Bill of Materials
 
+## Bill of Materials
 
 | **Item**                                 | **Quantity** | **Notes**                                                                       |
 |------------------------------------------|--------------|---------------------------------------------------------------------------------|
@@ -50,6 +60,53 @@ Nomad uses [QMK firmware](https://github.com/fiendie/qmk_firmware/tree/nomad)
 | Ctrl │ L3  │ L2  │ Opt │ GUI |     | Spc | Del |    | L1  | Rtn |     │ GUI │ Opt │  ←  │  ↓  │  →   |
 └──────┴─────┴─────┴─────┴─────┘     └─────┴─────┘    └─────┴─────┘     └─────┴─────┴─────┴─────┴──────┘
 ```
+**Symbol Layer**
+```
+┌──────┬─────┬─────┬─────┬─────┬─────┬─────┐                ┌─────┬─────┬─────┬─────┬─────┬─────┬──────┐
+│      │     │     │     │     │     │  ^  │                │  °  │     │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │  Q  │     │  €  │     │     │  [  │                │  ]  │     │  Ü  │     │  Ö  │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │  Ä  │  ß  │     │     │     │  \  |                │  /  │  H  │     │     │  @  │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┘                └─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │     │     │     │     │     │                            │  ~  │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┬─────┐    ┌─────┬─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+|      │     │     │     │     |     |     |     |    |     |     |     │     │     │     │     │      |
+└──────┴─────┴─────┴─────┴─────┘     └─────┴─────┘    └─────┴─────┘     └─────┴─────┴─────┴─────┴──────┘
+```
+**FN/Media Layer**
+```
+┌──────┬─────┬─────┬─────┬─────┬─────┬─────┐                ┌─────┬─────┬─────┬─────┬─────┬─────┬──────┐
+│      │ F1  │ F2  │ F3  │ F4  │ F5  │ F6  │                │ F7  │ F8  │ F9  │ F10 │ F11 │ F12 │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │     │     │     │     │     │     │                │ B+  │     │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │     │     │     │     │     │     |                │ B-  │     │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┘                └─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │     │     │     │     │     │                            │     │     │     │     │ PgU │ Ins  │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┬─────┐    ┌─────┬─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+|      │     │     │     │ Rwd |     | Pla | Mut |    | V-  | V+  |     │ Fwd │     │ Hom │ PgD │ End  |
+└──────┴─────┴─────┴─────┴─────┘     └─────┴─────┘    └─────┴─────┘     └─────┴─────┴─────┴─────┴──────┘
+```
+**RGB Settings Layer**
+```
+┌──────┬─────┬─────┬─────┬─────┬─────┬─────┐                ┌─────┬─────┬─────┬─────┬─────┬─────┬──────┐
+│      │     │     │     │     │     │ Tgl │                │     │     │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │     │     │     │     │     │ Md- │                │ Md+ │     │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │     │     │     │     │     │ Sp- |                │ Sp+ │     │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┘                └─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│      │     │     │     │     │     │                            │     │     │     │     │     │      │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┬─────┐    ┌─────┬─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+|      │     │     │     │ Va- |     | H-  | H+  |    | S-  | S+  |     │ Va+ │     │     │     │      |
+└──────┴─────┴─────┴─────┴─────┘     └─────┴─────┘    └─────┴─────┘     └─────┴─────┴─────┴─────┴──────┘
+```
+
+
+## Build Instructions
+
+Still a work in progress
 
 
 ## Images
