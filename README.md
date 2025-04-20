@@ -24,6 +24,7 @@ Nomad uses [QMK firmware](https://github.com/fiendie/qmk_firmware/tree/nomad)
 | **ALPS EC12 Low-Profile Rotary Encoder** | 2            | Optional rotary input.                                                          |
 | **Tactile Reset Button**                 | 2            | Optional but useful.                                                            |
 | **OLED Display (SSD1306 128x32)**        | 2 (optional) | Optional I2C displays.                                                          |
+| **SMD Resistors (0805 package)**         | 4            | I2C pull-up resistors, ony needed for the displays                              |
 | **Header Pins**                          | Varies       | For MCU, OLEDs.                                                                 |
 | **3D-Printed Case**                      | 2 halves     | Top shell only; open-bottom design using included STL files.                    |
 | **Acrylic Cover**                        | 2 halves     | Laser-cut cover layer using included DXF file.                                  |
@@ -35,7 +36,20 @@ Nomad uses [QMK firmware](https://github.com/fiendie/qmk_firmware/tree/nomad)
 
 ## Default layout 
 
-TODO
+**Base Layer**
+```
+┌──────┬─────┬─────┬─────┬─────┬─────┬─────┐                ┌─────┬─────┬─────┬─────┬─────┬─────┬──────┐
+│ Esc  │  1  │  2  │  3  │  4  │  5  │  <  │                │  >  │  6  │  7  │  8  │  9  │  0  │ Bksp │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│ Tab  │  Q  │  W  │  E  │  R  │  T  │  {  │                │  }  │  Z  │  U  │  I  │  O  │  P  │  ?   │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┤                ├─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│  =   │  A  │  S  │  D  │  F  │  G  │  |  |                │  -  │  H  │  J  │  K  │  L  │  +  │  #   │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┘                └─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+│ LSft │  Y  │  X  │  C  │  V  │  B  │                            │  N  │  M  │  ,  │  .  │  ↑  │ RSft │
+├──────┼─────┼─────┼─────┼─────┼─────┼─────┬─────┐    ┌─────┬─────┼─────┼─────┼─────┼─────┼─────┼──────┤
+| Ctrl │ L3  │ L2  │ Opt │ GUI |     | Spc | Del |    | L1  | Rtn |     │ GUI │ Opt │  ←  │  ↓  │  →   |
+└──────┴─────┴─────┴─────┴─────┘     └─────┴─────┘    └─────┴─────┘     └─────┴─────┴─────┴─────┴──────┘
+```
 
 
 ## Images
