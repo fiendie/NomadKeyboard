@@ -5,6 +5,7 @@ It uses low profile Kailh Choc v1 switches with hotswap sockets and features per
 Compared to the Sofle Choc the nomad offers an additional thumb cluster key, an additional modifier key in the 5th row and a 7th inner column with 3 keys each.
 An MX version is also available.
 
+If you are a non-EU resident you can buy pre-made keyboards from [Lucky Boy Store](https://www.aliexpress.com/item/1005009922158971.html) on AliExpress.
 
 ## Table of Contents
 
@@ -19,6 +20,7 @@ An MX version is also available.
 
 Nomad uses [QMK firmware](https://github.com/fiendie/qmk_firmware/tree/nomad)
 
+Currently there is a default keymap for and a vial keymap to configure your keyboard in real time.
 
 ## Bill of Materials
 
@@ -28,6 +30,7 @@ Nomad uses [QMK firmware](https://github.com/fiendie/qmk_firmware/tree/nomad)
 | **Kailh Choc v1 or MX switches**         | 68           | Choose based on version, the Choc version is only compatible with v1 switches!. |
 | **Keycaps (MBK, ChocFox, or MX)**        | 68           | Must match switch type and profile preference.                                  |
 | **SMD Diodes (1N4148, 0805 package)**    | 68           | One per switch; surface-mount only.                                             |
+| **SK6812 Mini-E LEDs**                   | 68           | One per switch, make sure you get the Mini-E version specifically.              |
 | **RP2040 Controller**                    | 2            | Tested with SplitKB Liatris and 42.Keebs Frood.                                 |
 | **TRRS jacks**                           | 2            | For inter-half communication.                                                   |
 | **TRRS cable**                           | 1            | Male-to-male, preferrably with 90 degree plugs                                  |
